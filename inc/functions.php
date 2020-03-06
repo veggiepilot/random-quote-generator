@@ -47,10 +47,6 @@ function printQuote($array) {
 
         $quote .= "<span class=\"citation\">" . $quoteObjects['citation'] . "</span>";
 
-    }else {
-
-        return $quote;
-
     }
 
     //check to see of the year is included.
@@ -58,12 +54,8 @@ function printQuote($array) {
 
         $quote .= "<span class=\"year\">" . $quoteObjects['year'] . "</span></p>";
 
-    }else {
-
-        return $quote;
-
     }
-
+    
     return $quote;
 
 }
